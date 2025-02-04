@@ -1,4 +1,16 @@
 {
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-02-04 03:30:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:badlands": "2025-02-04 03:30:49 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2025-02-04 03:58:41 +0000"
@@ -29,12 +41,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-02-04 03:30:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-02-04 03:58:41 +0000"
@@ -46,12 +52,6 @@
       "has_stick": "2025-02-04 03:58:41 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:badlands": "2025-02-04 03:30:49 +0000"
-    },
-    "done": false
   },
   "DataVersion": 3953
 }
