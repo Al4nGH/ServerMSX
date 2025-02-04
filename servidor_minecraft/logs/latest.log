@@ -1956,3 +1956,97 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.
 [22:18:07] [Craft Scheduler Thread - 17 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [22:18:08] [Server thread/INFO]: AlanELol issued server command: /time set day
 [22:18:08] [Server thread/INFO]: [AlanELol: Set the time to 1000]
+[22:23:46] [Server thread/INFO]: AlanELol issued server command: /reload confirm
+[22:23:46] [Server thread/INFO]: AlanELol: Please note that this command is not supported and may cause issues when using some plugins.
+[22:23:46] [Server thread/INFO]: AlanELol: If you encounter any issues please use the /stop command to restart your server.
+[22:23:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:23:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:23:46] [Server thread/INFO]: [Palolol] Disabling Palolol v1.0-SNAPSHOT
+[22:23:46] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.2-SNAPSHOT
+[22:23:46] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[22:23:46] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[22:23:46] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[22:23:46] [Server thread/INFO]: Loaded 1290 recipes
+[22:23:46] [Server thread/INFO]: Loaded 1399 advancements
+[22:23:47] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:23:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/palolol-1.0-SNAPSHOT.jar'...
+[22:23:47] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/palolol-1.0-SNAPSHOT.jar' in 124ms.
+[22:23:47] [Server thread/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[22:23:47] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Palolol (1.0-SNAPSHOT), ViaBackwards (5.2.2-SNAPSHOT), ViaVersion (5.2.1)
+[22:23:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[22:23:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[22:23:48] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[22:23:50] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:23:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:23:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:23:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:23:52] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoClassDefFoundError: com/viaversion/viaversion/rewriter/text/JsonNBTComponentRewriter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at ViaBackwards-5.2.2-SNAPSHOT.jar/com.viaversion.viabackwards.protocol.v1_9_1to1_9.Protocol1_9_1To1_9.registerPackets(Protocol1_9_1To1_9.java:66) ~[ViaBackwards-5.2.2-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:106) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:209) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:203) ~[ViaVersion-5.2.1.jar:?]
+	at ViaBackwards-5.2.2-SNAPSHOT.jar/com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:99) ~[ViaBackwards-5.2.2-SNAPSHOT.jar:?]
+	at ViaBackwards-5.2.2-SNAPSHOT.jar/com.viaversion.viabackwards.BukkitPlugin.lambda$new$0(BukkitPlugin.java:38) ~[ViaBackwards-5.2.2-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:115) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:88) ~[ViaVersion-5.2.1.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.text.JsonNBTComponentRewriter
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 51 more
+[22:23:52] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.2-SNAPSHOT
+[22:23:52] [Server thread/INFO]: [Palolol] Loading server plugin Palolol v1.0-SNAPSHOT
+[22:23:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:23:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[22:23:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[22:23:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.2-SNAPSHOT
+[22:23:52] [Server thread/INFO]: [Palolol] Enabling Palolol v1.0-SNAPSHOT
+[22:23:52] [Server thread/INFO]: AlanELol: Reload complete.
+[22:23:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6335ms or 126 ticks behind
+[22:23:52] [Server thread/INFO]: Timings Reset
+[22:23:52] [Craft Scheduler Thread - 19 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
