@@ -117,3 +117,5 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.
 [03:31:07] [Server thread/INFO]: Made AlanELol a server operator
 [03:31:13] [Server thread/INFO]: AlanELol issued server command: /gamemode creative
 [03:31:13] [Server thread/INFO]: [AlanELol: Set own game mode to Creative Mode]
+[05:17:58] [Server thread/INFO]: AlanELol lost connection: Disconnected
+[05:17:58] [Server thread/INFO]: AlanELol left the game
