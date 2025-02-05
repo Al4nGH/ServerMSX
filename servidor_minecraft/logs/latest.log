@@ -177,3 +177,5 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.
 [15:52:22] [Server thread/INFO]: AlanELol issued server command: /kill @e[type:skeleton]
 [15:52:42] [Server thread/INFO]: AlanELol issued server command: /minecraft:kill @e[type=!minecraft:player]
 [15:52:42] [Server thread/INFO]: [AlanELol: Killed 156 entities]
+[16:35:06] [Server thread/INFO]: AlanELol lost connection: Timed out
+[16:35:06] [Server thread/INFO]: AlanELol left the game
