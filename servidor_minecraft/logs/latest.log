@@ -1,10 +1,10 @@
-[15:48:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[15:48:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[15:48:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:48:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[15:48:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[18:58:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[18:58:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[18:58:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:58:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[18:58:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - Essentials (2.21.0-dev+164-1a4d75c), EssentialsChat (2.21.0-dev+164-1a4d75c), LuckPerms (5.4.153), Palolol (1.0-SNAPSHOT), Vault (1.7.3-b131), ViaBackwards (5.2.2-SNAPSHOT), ViaVersion (5.2.1)
-[15:48:32] [ServerMain/WARN]: Failed to parse resource pack prompt 'Hola!, necesitas el texture pack para entrar! por favor acepta :)'
+[18:58:22] [ServerMain/WARN]: Failed to parse resource pack prompt 'Hola!, necesitas el texture pack para entrar! por favor acepta :)'
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 7 path $
 	at com.google.gson.JsonParser.parseReader(JsonParser.java:76) ~[gson-2.10.1.jar:?]
 	at com.google.gson.JsonParser.parseString(JsonParser.java:51) ~[gson-2.10.1.jar:?]
@@ -26,30 +26,30 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.1.jar:?]
 	at com.google.gson.JsonParser.parseReader(JsonParser.java:71) ~[gson-2.10.1.jar:?]
 	... 12 more
-[15:48:32] [ServerMain/WARN]: resource-pack-id missing, using default of e70e57a5-791f-37d1-bbf0-056148d56cb9
-[15:48:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:48:35] [ServerMain/INFO]: Loaded 1290 recipes
-[15:48:35] [ServerMain/INFO]: Loaded 1399 advancements
-[15:48:36] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:48:36] [Server thread/INFO]: Loading properties
-[15:48:36] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[15:48:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:48:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:48:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:48:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[15:48:39] [Server thread/INFO]: Default game type: SURVIVAL
-[15:48:39] [Server thread/INFO]: Generating keypair
-[15:48:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:48:39] [Server thread/INFO]: Using epoll channel type
-[15:48:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:48:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:48:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
-[15:48:41] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
-[15:48:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:48:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:48:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:48:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:48:45] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
+[18:58:22] [ServerMain/WARN]: resource-pack-id missing, using default of 4f772f2e-3e59-3bb2-aef0-f1ef2c5c5810
+[18:58:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:58:27] [ServerMain/INFO]: Loaded 1290 recipes
+[18:58:27] [ServerMain/INFO]: Loaded 1399 advancements
+[18:58:28] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:58:28] [Server thread/INFO]: Loading properties
+[18:58:28] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[18:58:29] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:58:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:58:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:58:32] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[18:58:32] [Server thread/INFO]: Default game type: SURVIVAL
+[18:58:32] [Server thread/INFO]: Generating keypair
+[18:58:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:58:33] [Server thread/INFO]: Using epoll channel type
+[18:58:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:58:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:58:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[18:58:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[18:58:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:58:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[18:58:45] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[18:58:45] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[18:58:45] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
 java.lang.NoClassDefFoundError: com/viaversion/viaversion/rewriter/text/JsonNBTComponentRewriter
 	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
@@ -81,101 +81,128 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
 	... 25 more
-[15:48:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.153
-[15:48:46] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[15:48:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+164-1a4d75c
-[15:48:46] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.2-SNAPSHOT
-[15:48:46] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+164-1a4d75c
-[15:48:46] [Server thread/INFO]: [Palolol] Loading server plugin Palolol v1.0-SNAPSHOT
-[15:48:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:48:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.153
-[15:48:46] [Server thread/INFO]:         __    
-[15:48:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.153
-[15:48:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:48:46] [Server thread/INFO]: 
-[15:48:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:48:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:48:47] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:48:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:48:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1729ms)
-[15:48:48] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[15:48:48] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[15:48:48] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:48:48] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[15:48:48] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[15:48:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:48:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:48:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:48:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:48:48] [Server thread/INFO]: Preparing level "world"
-[15:48:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:48:51] [Server thread/INFO]: Time elapsed: 2074 ms
-[15:48:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:48:52] [Server thread/INFO]: Time elapsed: 339 ms
-[15:48:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:48:52] [Server thread/INFO]: Time elapsed: 287 ms
-[15:48:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
-[15:48:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[15:48:52] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+164-1a4d75c
-[15:48:54] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:48:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:48:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[15:48:55] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[15:48:56] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
-[15:48:56] [Server thread/INFO]: [Essentials] Using locale en
-[15:48:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:48:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:48:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[15:48:57] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[15:48:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.2-SNAPSHOT
-[15:48:57] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+164-1a4d75c
-[15:48:57] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[15:48:57] [Server thread/INFO]: [Palolol] Enabling Palolol v1.0-SNAPSHOT
-[15:48:57] [Server thread/INFO]: [spark] Starting background profiler...
-[15:48:58] [Server thread/INFO]: Done preparing level "world" (10.129s)
-[15:48:58] [Server thread/INFO]: Running delayed init tasks
-[15:48:58] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:48:58] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[15:48:58] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:48:58] [Server thread/INFO]: Done (35.330s)! For help, type "help"
-[15:48:58] [Server thread/INFO]: Timings Reset
-[15:48:58] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
-[15:48:59] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
-[15:48:59] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
-[15:48:59] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[15:49:04] [User Authenticator #0/INFO]: UUID of player AlanELol is a1705dca-5b47-38a3-a1bc-26b03cbc7042
-[15:49:34] [Server thread/INFO]: AlanELol joined the game
-[15:49:35] [Server thread/INFO]: AlanELol[/127.59.112.3:48733] logged in with entity id 27 at ([world]47.91763819112123, 104.0, -59.57140904959696)
-[15:49:35] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 44.165657ms. Summary: Getting prefix for AlanELol
-[15:49:48] [Async Chat Thread - #0/INFO]: [Not Secure]  AlanELol: \u24C4
-[15:49:55] [Server thread/INFO]: AlanELol issued server command: /tellraw AlanELol "\u24C4"
-[15:52:05] [Server thread/INFO]: AlanELol issued server command: /time set day
-[15:52:13] [Server thread/INFO]: AlanELol issued server command: /kill @e[!type[
-[15:52:14] [Server thread/INFO]: AlanELol issued server command: /kill @e[!type]
-[15:52:18] [Server thread/INFO]: AlanELol issued server command: /kill @e[!type:skeleton]
-[15:52:22] [Server thread/INFO]: AlanELol issued server command: /kill @e[type:skeleton]
-[15:52:42] [Server thread/INFO]: AlanELol issued server command: /minecraft:kill @e[type=!minecraft:player]
-[15:52:42] [Server thread/INFO]: [AlanELol: Killed 156 entities]
-[16:35:06] [Server thread/INFO]: AlanELol lost connection: Timed out
-[16:35:06] [Server thread/INFO]: AlanELol left the game
+[18:58:45] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.153
+[18:58:46] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[18:58:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+164-1a4d75c
+[18:58:46] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.2-SNAPSHOT
+[18:58:46] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+164-1a4d75c
+[18:58:46] [Server thread/INFO]: [Palolol] Loading server plugin Palolol v1.0-SNAPSHOT
+[18:58:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:58:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.153
+[18:58:47] [Server thread/INFO]:         __    
+[18:58:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.153
+[18:58:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:58:47] [Server thread/INFO]: 
+[18:58:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:58:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:58:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:58:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:58:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2443ms)
+[18:58:49] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:58:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:58:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:58:50] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:58:50] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:58:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:58:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:58:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:58:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:58:50] [Server thread/INFO]: Preparing level "world"
+[18:58:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:58:54] [Server thread/INFO]: Time elapsed: 3312 ms
+[18:58:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:58:55] [Server thread/INFO]: Time elapsed: 394 ms
+[18:58:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:58:55] [Server thread/INFO]: Time elapsed: 534 ms
+[18:58:55] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[18:58:55] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[18:58:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+164-1a4d75c
+[18:58:59] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[18:59:01] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:59:01] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[18:59:01] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[18:59:02] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[18:59:02] [Server thread/INFO]: [Essentials] Using locale en
+[18:59:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:59:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:59:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:59:04] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:59:04] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.2-SNAPSHOT
+[18:59:04] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+164-1a4d75c
+[18:59:04] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:59:04] [Server thread/INFO]: [Palolol] Enabling Palolol v1.0-SNAPSHOT
+[18:59:05] [Server thread/INFO]: [spark] Starting background profiler...
+[18:59:06] [Server thread/INFO]: Done preparing level "world" (16.365s)
+[18:59:06] [Server thread/INFO]: Running delayed init tasks
+[18:59:06] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:59:06] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[18:59:06] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:59:06] [Server thread/INFO]: Done (62.766s)! For help, type "help"
+[18:59:06] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:59:06] [Server thread/INFO]: Timings Reset
+[18:59:07] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[18:59:07] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[18:59:07] [Craft Scheduler Thread - 6 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[18:59:10] [User Authenticator #0/INFO]: UUID of player AlanELol is a1705dca-5b47-38a3-a1bc-26b03cbc7042
+[18:59:28] [Server thread/INFO]: AlanELol joined the game
+[18:59:29] [Server thread/INFO]: AlanELol[/127.59.112.3:45615] logged in with entity id 6 at ([world]41.876379436483624, 104.0, -100.89396561236998)
+[18:59:29] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 28.992437ms. Summary: Getting prefix for AlanELol
+[18:59:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2572ms or 51 ticks behind
+[19:00:06] [Async Chat Thread - #1/INFO]: [Not Secure]  AlanELol: \u24B9
+[19:00:11] [Server thread/INFO]: AlanELol issued server command: /tellraw AlanELol \u24B9
+[19:00:14] [Server thread/INFO]: AlanELol issued server command: /tellraw AlanELol "\u24B9"
+[19:00:21] [Async Chat Thread - #1/INFO]: [Not Secure]  AlanELol: asdakppsd
+[19:00:54] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 ""
+[19:00:55] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:00:55] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 
+[19:00:55] [Async Chat Thread - #1/INFO]: [Not Secure] AlanELol: s
+[19:01:12] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "\u24CA"
+[19:01:12] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:01:12] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 \u24CA
+[19:01:29] [Async Chat Thread - #0/INFO]: [Not Secure] \u24CAAlanELol: a
+[19:03:41] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "\u24CA \u24BD \u24C2 \u24B6 \u24B9 \u24C4 \u24C5"
+[19:03:41] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:03:41] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 \u24CA \u24BD \u24C2 \u24B6 \u24B9 \u24C4 \u24C5
+[19:03:43] [Async Chat Thread - #2/INFO]: [Not Secure] \u24CA \u24BD \u24C2 \u24B6 \u24B9 \u24C4 \u24C5AlanELol: a
+[19:03:52] [Server thread/INFO]: AlanELol issued server command: /tellraw AlanELol "\u24B9"
+[19:03:59] [Server thread/INFO]: AlanELol issued server command: /tellraw AlanELol "\u24C5"
+[19:05:39] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "Ⓤ"
+[19:05:39] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:05:39] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 Ⓤ
+[19:05:43] [Async Chat Thread - #4/INFO]: [Not Secure] ⓊAlanELol: a
+[19:06:16] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "Ⓤ" Ⓗ
+[19:06:16] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:06:16] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 Ⓤ server=ⓗ
+[19:06:27] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "Ⓤ Ⓗ"
+[19:06:27] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:06:27] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 Ⓤ Ⓗ
+[19:06:28] [Async Chat Thread - #4/INFO]: [Not Secure] Ⓤ ⒽAlanELol: asd
+[19:07:12] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ"
+[19:07:12] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:07:12] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ
+[19:07:13] [Async Chat Thread - #5/INFO]: [Not Secure] Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ ⓅAlanELol: asd
+[19:07:18] [Server thread/INFO]: AlanELol issued server command: /lp user AlanELol meta setprefix 1000 "Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ "
+[19:07:18] [luckperms-command-executor/INFO]: [LP] LOG > (AlanELol) [U] (alanelol)
+[19:07:18] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1000 Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ 
+[19:07:19] [Async Chat Thread - #5/INFO]: [Not Secure] Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ AlanELol: asd
