@@ -184,3 +184,4 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.
 [00:19:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7710ms or 154 ticks behind
 [00:19:37] [Server thread/INFO]: Timings Reset
 [00:19:37] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[00:27:54] [Async Chat Thread - #2/INFO]: [Not Secure] <AlanELol> asd
