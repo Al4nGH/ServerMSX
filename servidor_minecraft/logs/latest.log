@@ -149,3 +149,8 @@ Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.
 [20:13:39] [Async Chat Thread - #1/INFO]: [Not Secure] Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ AlanELol: a
 [20:19:01] [Server thread/INFO]: AlanELol issued server command: /gamemode survival
 [20:19:30] [Server thread/INFO]: AlanELol issued server command: /gamemode creative
+[20:45:42] [Async Chat Thread - #2/INFO]: [Not Secure] Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ AlanELol: asd
+[20:49:22] [Async Chat Thread - #4/INFO]: [Not Secure] Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ AlanELol: das
+[20:49:25] [Async Chat Thread - #4/INFO]: [Not Secure] Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ AlanELol: dsa
+[20:50:10] [Server thread/INFO]: AlanELol lost connection: Disconnected
+[20:50:10] [Server thread/INFO]: AlanELol left the game
