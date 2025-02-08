@@ -8096,3 +8096,5 @@ Caused by: java.time.DateTimeException: Unable to obtain LocalTime from Temporal
 [19:44:10] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: Ⓞ
 [19:44:32] [Async Chat Thread - #10/INFO]: [Not Secure] Ⓓ AlanELol: Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ
 [19:45:12] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:52:21] [Server thread/INFO]: AlanELol lost connection: Disconnected
+[19:52:21] [Server thread/INFO]: AlanELol left the game
