@@ -20,7 +20,7 @@ display:
       score: 98
     line-3:
       text:
-      - "|    β ʀᴀɴɢᴏ : %luckperms_prefix%"
+      - "#0000ff|    β ʀᴀɴɢᴏ : %luckperms_prefix%"
       random: false
       interval: 20
       score: 97
