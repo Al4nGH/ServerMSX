@@ -41,21 +41,21 @@ display:
       score: 98
     line-3:
       text:
-      - "|    ʀᴀɴɢᴏ :  %luckperms_prefix%"
+      - "|    ʀᴀɴɢᴏ : %luckperms_prefix%"
       random: false
       interval: 20
       score: 97
     #This animation works together with the line below it. The interval is the same so it displays the data at the same time.     
     line-4:
       text:
-      - "|    ᴀʟɢᴏ :  %luckperms_prefix%"
+      - "|    ᴀʟɢᴏ : $150"
       random: false
       interval: 60
       score: 96
     #This animation shows the actual data of the player  
     line-5:
       text:
-      - "|    ᴏᴛʀᴀ ᴄᴏsᴀ :  %luckperms_prefix%"
+      - "|    ᴏᴛʀᴀ ᴄᴏsᴀ : 97"
       random: false
       interval: 60
       score: 95
@@ -70,46 +70,27 @@ display:
     #In this case it will just change the color of the text but it could be anything and you are also able to use placeholders here.  
     line-8:
       text:
-      - "&1Random Rotation"
-      - "&2Random Rotation"
-      - "&3Random Rotation"
-      - "&4Random Rotation"
-      - "&5Random Rotation"
-      - "&6Random Rotation"
-      - "&7Random Rotation"
-      - "&8Random Rotation"
-      - "&9Random Rotation"
-      - "&aRandom Rotation"
-      - "&bRandom Rotation"
-      - "&cRandom Rotation"
-      - "&dRandom Rotation"
-      - "&eRandom Rotation"
-      - "&kRandom Rotation" 
-      - "&lRandom Rotation" 
-      - "&mRandom Rotation" 
-      - "&nRandom Rotation"
-      - "&oRandom Rotation"
-      - "&rRandom Rotation"       
-      random: true
+      - "ŝ"      
+      random: false
       interval: 1
       score: 94
     line-9:
       text:
-      - " "       
+      - "|    ᴊᴜɢᴀᴅᴏʀᴇs : %server_online%"     
       random: true
       interval: 1
       score: 93
     #It will display the player's health here with hearts, you can also use score=%placeholder% if you have PlaceholderAPI installed
     line-10:
       text:
-      - "<health full=&4 half=&c empty=&f update=5>❤</health>"       
+      - "|    ʜᴏʀᴀ : %server_time_hh:mm:ss a%"      
       random: false
       interval: 10
       score: "0"
     #Here we will repeat | 10 times, you can also use times=%placeholder% if you have PlaceholderAPI installed
     line-11:
       text:
-      - "<repeat times=10>|</repeat>"       
+      - "|    ᴍᴀʀᴢᴏ : "      
       random: false
       interval: 10
       score: 0
@@ -121,14 +102,7 @@ display:
       score: "-1"
     line-13:
       text:
-      - ""
-      random: true
-      interval: 1
-      score: "-2"
-    #1.13+ supports up to 128 characters per scoreboard line!
-    line-14:
-      text:
-      - "ᴘɪxᴇʟs.sᴜʙᴅᴏᴍɪɴɪᴏ.ᴀʟɢᴏ"
+      - "   ᴘɪxᴇʟs.sᴜʙᴅᴏᴍɪɴɪᴏ.ᴀʟɢᴏ   "
       random: true
       interval: 1
       score: "-2"
