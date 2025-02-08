@@ -20,19 +20,19 @@ display:
       score: 98
     line-3:
       text:
-      - "|    💎 ʀᴀɴɢᴏ : %luckperms_prefix%"
+      - "|    β ʀᴀɴɢᴏ : %luckperms_prefix%"
       random: false
       interval: 20
       score: 97
     line-4:
       text:
-      - "|    ☂ ᴀʟɢᴏ : $150"
+      - "|    ᵩ ᴀʟɢᴏ : $150"
       random: false
       interval: 60
       score: 96
     line-5:
       text:
-      - "|    🔥 ᴏᴛʀᴀ ᴄᴏsᴀ : 97"
+      - "|    Ϝ ᴏᴛʀᴀ ᴄᴏsᴀ : 97"
       random: false
       interval: 60
       score: 95 
@@ -50,19 +50,19 @@ display:
       score: 94
     line-9:
       text:
-      - "|    ☺ ᴊᴜɢᴀᴅᴏʀᴇs : %server_online%"     
+      - "|    ρ ᴊᴜɢᴀᴅᴏʀᴇs : %server_online%"     
       random: true
       interval: 1
       score: 93
     line-10:
       text:
-      - "|    ☀ ʜᴏʀᴀ : %server_time_hh:mm:ss a%"      
+      - "|    Ὠ ʜᴏʀᴀ : %server_time_hh:mm:ss a%"      
       random: false
       interval: 10
       score: "0"
     line-11:
       text:
-      - "|    ⛏ ᴛᴘs : %server_tps_1%"      
+      - "|    ᴪ ᴛᴘs : %server_tps_1%"      
       random: false
       interval: 10
       score: 0
