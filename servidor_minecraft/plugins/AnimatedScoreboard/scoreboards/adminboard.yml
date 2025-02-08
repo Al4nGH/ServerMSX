@@ -20,19 +20,19 @@ display:
       score: 98
     line-3:
       text:
-      - "#0000ff|    β ʀᴀɴɢᴏ : %luckperms_prefix%"
+      - "&#a36c56&l|&r    β ʀᴀɴɢᴏ : %luckperms_prefix%"
       random: false
       interval: 20
       score: 97
     line-4:
       text:
-      - "|    ᵩ ᴀʟɢᴏ : $150"
+      - "&#a36c56&l|&r    ᵩ ᴀʟɢᴏ : $150"
       random: false
       interval: 60
       score: 96
     line-5:
       text:
-      - "|    Ϝ ᴏᴛʀᴀ ᴄᴏsᴀ : 97"
+      - "&#a36c56&l|&r    Ϝ ᴏᴛʀᴀ ᴄᴏsᴀ : 97"
       random: false
       interval: 60
       score: 95 
@@ -50,19 +50,19 @@ display:
       score: 94
     line-9:
       text:
-      - "|    ρ ᴊᴜɢᴀᴅᴏʀᴇs : %server_online%"     
+      - "&#17b34b&l|&r    ρ ᴊᴜɢᴀᴅᴏʀᴇs : %server_online%"     
       random: true
       interval: 1
       score: 93
     line-10:
       text:
-      - "|    Ὠ ʜᴏʀᴀ : %server_time_hh:mm:ss a%"      
+      - "&#17b34b&l|&r    Ὠ ʜᴏʀᴀ : %server_time_hh:mm:ss a%"      
       random: false
       interval: 10
       score: "0"
     line-11:
       text:
-      - "|    ᴪ ᴛᴘs : %server_tps_1%"      
+      - "&#17b34b&l|&r    ᴪ ᴛᴘs : %server_tps_1%"      
       random: false
       interval: 10
       score: 0
@@ -74,7 +74,7 @@ display:
       score: "-1"
     line-13:
       text:
-      - "   ᴘɪxᴇʟs.sᴜʙᴅᴏᴍɪɴɪᴏ.ᴀʟɢᴏ   "
+      - "   &7ᴘɪxᴇʟs.sᴜʙᴅᴏᴍɪɴɪᴏ.ᴀʟɢᴏ   "
       random: true
       interval: 1
       score: "-2"

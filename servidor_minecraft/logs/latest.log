@@ -8081,3 +8081,18 @@ Caused by: java.time.DateTimeException: Unable to obtain LocalTime from Temporal
 [19:08:42] [Server thread/INFO]: AlanELol issued server command: /asb reload
 [19:15:56] [Server thread/INFO]: AlanELol issued server command: /time set night
 [19:23:14] [Async Chat Thread - #7/INFO]: [Not Secure] Ⓓ AlanELol: Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ
+[19:40:31] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:40:33] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:40:43] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:41:03] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:41:54] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:42:12] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:42:37] [Server thread/INFO]: AlanELol issued server command: /asb reload
+[19:43:27] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: asdsad
+[19:43:49] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: Ⓞ
+[19:43:56] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: Ⓞ
+[19:44:05] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: Ⓞ
+[19:44:07] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: Ⓞ
+[19:44:10] [Async Chat Thread - #9/INFO]: [Not Secure] Ⓓ AlanELol: Ⓞ
+[19:44:32] [Async Chat Thread - #10/INFO]: [Not Secure] Ⓓ AlanELol: Ⓤ Ⓗ Ⓜ Ⓐ Ⓓ Ⓦ Ⓞ Ⓟ
+[19:45:12] [Server thread/INFO]: AlanELol issued server command: /asb reload
