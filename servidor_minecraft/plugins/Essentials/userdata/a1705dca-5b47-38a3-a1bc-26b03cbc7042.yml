@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1739032270847
+  logout: 1739035040318
   login: 1739034281198
 money: '0'
 logoutlocation:
   world: 0c20fede-7909-4421-8a51-a3bfcc8b754a
   world-name: world
-  x: 215.27602417183203
-  y: 77.0
-  z: -610.2108552109202
-  yaw: 28.739309310913086
-  pitch: 25.230562210083008
+  x: 699.273593150787
+  y: 69.0
+  z: -776.137003727332
+  yaw: -85.73065185546875
+  pitch: 23.42218780517578
 last-account-name: AlanELol

@@ -41,25 +41,21 @@ display:
       score: 98
     line-3:
       text:
-      - "   Rango: %luckperms_prefix%"
+      - "|    ʀᴀɴɢᴏ :  %luckperms_prefix%"
       random: false
       interval: 20
       score: 97
     #This animation works together with the line below it. The interval is the same so it displays the data at the same time.     
     line-4:
       text:
-      - "&aYour gamemode:"
-      - "&aYour location:"
-      - "&aYour world:"    
+      - "|    ᴀʟɢᴏ :  %luckperms_prefix%"
       random: false
       interval: 60
       score: 96
     #This animation shows the actual data of the player  
     line-5:
       text:
-      - "  &b%player_gamemode%"
-      - "  <update ticks=1>&bX:%player_x% Y:%player_y% Z:%player_z%</update>"
-      - "  &b%player_world%"    
+      - "|    ᴏᴛʀᴀ ᴄᴏsᴀ :  %luckperms_prefix%"
       random: false
       interval: 60
       score: 95
@@ -132,7 +128,7 @@ display:
     #1.13+ supports up to 128 characters per scoreboard line!
     line-14:
       text:
-      - ""
+      - "ᴘɪxᴇʟs.sᴜʙᴅᴏᴍɪɴɪᴏ.ᴀʟɢᴏ"
       random: true
       interval: 1
       score: "-2"
