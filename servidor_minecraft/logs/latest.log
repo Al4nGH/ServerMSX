@@ -2764,3 +2764,8 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:27:49] [Server thread/INFO]: AlanELol lost connection: Disconnected
+[03:27:49] [Server thread/INFO]: AlanELol left the game
+[03:27:57] [User Authenticator #5/INFO]: UUID of player AlanELol is a1705dca-5b47-38a3-a1bc-26b03cbc7042
+[03:27:59] [Server thread/INFO]: AlanELol joined the game
+[03:27:59] [Server thread/INFO]: AlanELol[/127.59.112.3:36417] logged in with entity id 20570 at ([world]697.3628414829109, 69.0, -768.4759118811704)
