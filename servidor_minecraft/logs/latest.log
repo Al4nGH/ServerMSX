@@ -2042,3 +2042,298 @@ java.lang.NullPointerException: null
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [01:20:59] [Server thread/INFO]: AlanELol lost connection: Internal Exception: io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: zip file closed
 [01:20:59] [Server thread/INFO]: AlanELol left the game
+[01:21:35] [User Authenticator #2/INFO]: UUID of player AlanELol is a1705dca-5b47-38a3-a1bc-26b03cbc7042
+[01:21:36] [Server thread/INFO]: AlanELol joined the game
+[01:21:36] [Server thread/INFO]: AlanELol[/127.59.112.3:36515] logged in with entity id 8461 at ([world]714.530518915247, 78.0, -757.4648299777896)
+[01:23:42] [Server thread/INFO]: AlanELol issued server command: /reload confirm
+[01:23:42] [Server thread/INFO]: AlanELol: Please note that this command is not supported and may cause issues when using some plugins.
+[01:23:42] [Server thread/INFO]: AlanELol: If you encounter any issues please use the /stop command to restart your server.
+[01:23:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:23:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:23:43] [Server thread/INFO]: [Palolol] Disabling Palolol v1.0-SNAPSHOT
+[01:23:43] [Server thread/INFO]: [AnimatedScoreboard] Disabling AnimatedScoreboard v0.3.5
+[01:23:43] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.0-dev+164-1a4d75c
+[01:23:43] [Server thread/INFO]: [PixelsItems] Disabling PixelsItems v1.0-SNAPSHOT
+[01:23:43] [Server thread/INFO]: -----------------------
+[01:23:43] [Server thread/INFO]: 
+[01:23:43] [Server thread/INFO]: 
+[01:23:43] [Server thread/INFO]: ADIOSSSS SOSS
+[01:23:43] [Server thread/INFO]: 
+[01:23:43] [Server thread/INFO]: 
+[01:23:43] [Server thread/INFO]: -----------------------
+[01:23:43] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.2-SNAPSHOT
+[01:23:43] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[01:23:43] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+164-1a4d75c
+[01:23:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[01:23:43] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[01:23:43] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[01:23:43] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.153
+[01:23:43] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:23:43] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:23:43] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:23:43] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[01:23:43] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[01:23:43] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:23:43] [Server thread/INFO]: Loaded 1290 recipes
+[01:23:43] [Server thread/INFO]: Loaded 1399 advancements
+[01:23:43] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:23:43] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PixelsItems-1.0-SNAPSHOT.jar'...
+[01:23:44] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PixelsItems-1.0-SNAPSHOT.jar' in 178ms.
+[01:23:44] [Server thread/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[01:23:44] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - AnimatedScoreboard (0.3.5), Essentials (2.21.0-dev+164-1a4d75c), EssentialsChat (2.21.0-dev+164-1a4d75c), LuckPerms (5.4.153), Palolol (1.0-SNAPSHOT), PixelsItems (1.0-SNAPSHOT), PlaceholderAPI (2.11.6), Vault (1.7.3-b131), ViaBackwards (5.2.2-SNAPSHOT), ViaVersion (5.2.1)
+[01:23:45] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[01:23:45] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[01:23:45] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[01:23:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:23:47] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:23:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:23:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:23:48] [Server thread/ERROR]: [ViaVersion] Error initializing plugin 'ViaVersion-5.2.1.jar' in folder 'plugins' (Is it up to date?)
+java.lang.NoClassDefFoundError: com/viaversion/viaversion/rewriter/text/JsonNBTComponentRewriter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:243) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:169) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at ViaBackwards-5.2.2-SNAPSHOT.jar/com.viaversion.viabackwards.protocol.v1_9_1to1_9.Protocol1_9_1To1_9.registerPackets(Protocol1_9_1To1_9.java:66) ~[ViaBackwards-5.2.2-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.api.protocol.AbstractProtocol.initialize(AbstractProtocol.java:106) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:209) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.protocol.ProtocolManagerImpl.registerProtocol(ProtocolManagerImpl.java:203) ~[ViaVersion-5.2.1.jar:?]
+	at ViaBackwards-5.2.2-SNAPSHOT.jar/com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:99) ~[ViaBackwards-5.2.2-SNAPSHOT.jar:?]
+	at ViaBackwards-5.2.2-SNAPSHOT.jar/com.viaversion.viabackwards.BukkitPlugin.lambda$new$0(BukkitPlugin.java:38) ~[ViaBackwards-5.2.2-SNAPSHOT.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.ViaManagerImpl.init(ViaManagerImpl.java:115) ~[ViaVersion-5.2.1.jar:?]
+	at ViaVersion-5.2.1.jar/com.viaversion.viaversion.ViaVersionPlugin.onLoad(ViaVersionPlugin.java:88) ~[ViaVersion-5.2.1.jar:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.viaversion.viaversion.rewriter.text.JsonNBTComponentRewriter
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 51 more
+[01:23:48] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.153
+[01:23:48] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[01:23:48] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+164-1a4d75c
+[01:23:48] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[01:23:48] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.2-SNAPSHOT
+[01:23:48] [Server thread/INFO]: [PixelsItems] Loading server plugin PixelsItems v1.0-SNAPSHOT
+[01:23:48] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.0-dev+164-1a4d75c
+[01:23:48] [Server thread/INFO]: [AnimatedScoreboard] Loading server plugin AnimatedScoreboard v0.3.5
+[01:23:48] [Server thread/INFO]: [Palolol] Loading server plugin Palolol v1.0-SNAPSHOT
+[01:23:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:23:48] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.153
+[01:23:49] [Server thread/INFO]:         __    
+[01:23:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.153
+[01:23:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:23:49] [Server thread/INFO]: 
+[01:23:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:23:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:23:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:23:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:23:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1322ms)
+[01:23:50] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[01:23:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[01:23:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:23:51] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[01:23:51] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:23:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[01:23:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[01:23:51] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+164-1a4d75c
+[01:23:52] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[01:23:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:23:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[01:23:52] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[01:23:52] [Server thread/INFO]: [Essentials] Using locale en
+[01:23:52] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:23:52] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:23:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[01:23:52] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[01:23:53] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[01:23:53] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[01:23:53] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.2-SNAPSHOT
+[01:23:53] [Server thread/INFO]: [PixelsItems] Enabling PixelsItems v1.0-SNAPSHOT
+[01:23:53] [Server thread/INFO]: -----------------------
+[01:23:53] [Server thread/INFO]: 
+[01:23:53] [Server thread/INFO]: 
+[01:23:53] [Server thread/INFO]: PIXELSITEMS INICIADO LOL XD
+[01:23:53] [Server thread/INFO]: 
+[01:23:53] [Server thread/INFO]: 
+[01:23:53] [Server thread/INFO]: -----------------------
+[01:23:53] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.0-dev+164-1a4d75c
+[01:23:53] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[01:23:53] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.3.5
+[01:23:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: animatedscoreboard [0.0.1]
+[01:23:53] [Server thread/INFO]: [Palolol] Enabling Palolol v1.0-SNAPSHOT
+[01:23:53] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[01:23:53] [Server thread/INFO]: AlanELol: Reload complete.
+[01:23:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10837ms or 216 ticks behind
+[01:23:53] [Server thread/INFO]: Timings Reset
+[01:23:53] [Craft Scheduler Thread - 505 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:23:53] [Craft Scheduler Thread - 504 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[01:23:53] [Craft Scheduler Thread - 504 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] No new versions found for the plugin!
+[01:23:53] [Craft Scheduler Thread - 503 - Essentials/INFO]: [Essentials] Fetching version information...
+[01:23:53] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[01:23:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[01:23:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[01:23:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[01:23:54] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[01:23:54] [Craft Scheduler Thread - 507 - Vault/INFO]: [Vault] Checking for Updates ... 
+[01:23:54] [Craft Scheduler Thread - 507 - Vault/INFO]: [Vault] No new version available
+[01:23:54] [Craft Scheduler Thread - 503 - Essentials/WARN]: [Essentials] You're 3 EssentialsX dev build(s) out of date!
+[01:23:54] [Craft Scheduler Thread - 503 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[01:24:05] [Server thread/INFO]: AlanELol has made the advancement [Diamonds!]
+[01:25:13] [Server thread/INFO]: AlanELol issued server command: /itemname &ai
+[01:25:26] [Server thread/INFO]: AlanELol issued server command: /itemname itemtest
+[01:25:35] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to PixelsItems v1.0-SNAPSHOT
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at PixelsItems-1.0-SNAPSHOT.jar/me.alanelol.pixelsitems.Listeners.ItemHandler.OnInteract(ItemHandler.java:53) ~[PixelsItems-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor769.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:602) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1871) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:25:35] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to PixelsItems v1.0-SNAPSHOT
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at PixelsItems-1.0-SNAPSHOT.jar/me.alanelol.pixelsitems.Listeners.ItemHandler.OnInteract(ItemHandler.java:53) ~[PixelsItems-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor769.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:602) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1871) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:29:39] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to PixelsItems v1.0-SNAPSHOT
+java.lang.NullPointerException: null
+	at java.base/java.util.Objects.requireNonNull(Objects.java:233) ~[?:?]
+	at PixelsItems-1.0-SNAPSHOT.jar/me.alanelol.pixelsitems.Listeners.ItemHandler.OnInteract(ItemHandler.java:53) ~[PixelsItems-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor769.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:602) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:536) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1871) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:44) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:11) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:29:48] [Server thread/INFO]: AlanELol lost connection: Internal Exception: io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: zip file closed
+[01:29:48] [Server thread/INFO]: AlanELol left the game
